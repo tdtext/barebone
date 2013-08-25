@@ -1,0 +1,19 @@
+{
+    "name": "tdtext/barebone",
+    "description": "A barebone The DataTank extension",
+    "homepage": "http://thedatatank.com",
+    "type": "library",
+    "license": "AGPL-3.0",
+    "require" : {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "tdtext\\barebone\\": "src/"
+        }
+    },
+    "scripts": {
+    },
+
+    "minimum-stability" : "dev"
+}
